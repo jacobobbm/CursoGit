@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Agenda Cloud</string>
+
+    <!-- MAIN ACTIVITY-->
+
+    <string name="btn_login">Login</string>
+    <string name="btn_singup">Sing Up</string>
+    <!-- Registro ACTIVITY-->
+
+
+    <string name="singup_txt">Sing Up</string>
+    <string name="nombre_et">Nombre</string>
+    <string name="mail_et">Mail</string>
+    <string name="contrasena_et">Contrasena</string>
+    <string name="contrasena_confirm_et">Repetir contrasena</string>
+    <string name="login_txt">Ir la login</string>
+</resources>

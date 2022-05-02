@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:text="Sing Up"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/nombre_et"
+                android:hint="@string/nombre_et"
+                android:inputType="textPersonName|textCapWords"
+                android:padding="15dp"
+                android:layout_marginTop="50sp"
+                android:drawableStart="@drawable/icono_nombre_usuario"
+                android:drawablePadding="15dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/mail_et"
+                android:hint="@string/mail_et"
+                android:inputType="textEmailAddress"
+                android:padding="15dp"
+                android:drawableStart="@drawable/icono_email"
+                android:drawablePadding="15dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            app:hintEnabled="false">
+
+            <EditText
+                android:id="@+id/contrasena"
+                android:hint="@string/contrasena_et"
+                android:inputType="textPassword"
+                android:padding="15dp"
+                android:drawableStart="@drawable/ic_password"
+                android:drawablePadding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            app:hintEnabled="false">
+
+            <EditText
+                android:id="@+id/contrasena_confirm_et"
+                android:hint="@string/contrasena_confirm_et"
+                android:inputType="textPassword"
+                android:padding="15dp"
+                android:drawableStart="@drawable/ic_password"
+                android:drawablePadding="15dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_singup"
+            android:text="@string/btn_singup"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/login_txt"
+            android:text="@string/login_txt"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
