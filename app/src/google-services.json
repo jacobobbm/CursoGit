@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1009010396490",
+    "firebase_url": "https://agenda-online-40efb-default-rtdb.firebaseio.com",
+    "project_id": "agenda-online-40efb",
+    "storage_bucket": "agenda-online-40efb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009010396490:android:75cbd5eff95a6188b845b3",
+        "android_client_info": {
+          "package_name": "com.example.agenda_online"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009010396490-hb44jkvpq5t956k8lhku2lqb3f7mr9p5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_NbTytz09Mo7n75Y4jJSnL-wG98X0ris"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009010396490-hb44jkvpq5t956k8lhku2lqb3f7mr9p5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009010396490:android:a5fdb5085d6de2b9b845b3",
+        "android_client_info": {
+          "package_name": "com.example.agendacloud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009010396490-hb44jkvpq5t956k8lhku2lqb3f7mr9p5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_NbTytz09Mo7n75Y4jJSnL-wG98X0ris"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009010396490-hb44jkvpq5t956k8lhku2lqb3f7mr9p5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
