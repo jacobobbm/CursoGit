@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Registro">
+    tools:context=".SingUp">
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -63,7 +63,7 @@
             app:hintEnabled="false">
 
             <EditText
-                android:id="@+id/contrasena"
+                android:id="@+id/contrasena_et"
                 android:hint="@string/contrasena_et"
                 android:inputType="textPassword"
                 android:padding="15dp"

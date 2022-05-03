@@ -6,21 +6,40 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class Pantalla_De_Carga extends AppCompatActivity {
+   FirebaseAuth firebaseAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pantalla_de_carga);
-
+        firebaseAuth = FirebaseAuth.getInstance();
         // Animacion de carga
         int duracion_animacion = 2500;
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(Pantalla_De_Carga.this, MainActivity.class));
-                finish();
+//              startActivity(new Intent(Pantalla_De_Carga.this, MainActivity.class));
+//              finish();
+                verificarInicioSesion();
             }
         }, duracion_animacion);
     }
+    private void verificarInicioSesion(){
+        FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
+        if (firebaseUser == null){
+            startActivity(new Intent (Pantalla_De_Carga.this, MainActivity.class));
+            finish();
+        }else{
+
+            startActivity(new Intent (Pantalla_De_Carga.this, MainMenu.class));
+            finish();
+        }
+
+    }
+
 }

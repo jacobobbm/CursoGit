@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AgendaCloud">
         <activity
+            android:name=".MainMenu"
+            android:exported="true" />
+        <activity
             android:name=".SingUp"
             android:exported="true" />
         <activity
@@ -17,7 +20,7 @@
             android:exported="true" />
         <activity
             android:name=".Pantalla_De_Carga"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
