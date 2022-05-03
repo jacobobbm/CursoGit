@@ -14,4 +14,14 @@
     <string name="contrasena_et">Contrasena</string>
     <string name="contrasena_confirm_et">Repetir contrasena</string>
     <string name="login_txt">Ir la login</string>
+
+<!--Menu principal-->
+    <string name="log_out">Log out</string>
+
+<!--    Login-->
+    <string name="login_txt_2">Log in</string>
+    <string name="mail_login">email</string>
+    <string name="contrasena_login">Contrasena</string>
+    <string name="btn_login_login">Login</string>
+    <string name="sing_up_login_txt">No estas Registrado?</string>
 </resources>
