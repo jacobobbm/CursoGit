@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AgendaCloud">
         <activity
+            android:name=".ShowNotes.ShowNotes"
+            android:exported="true" />
+        <activity
+            android:name=".Profile.Profile"
+            android:exported="true" />
+        <activity
+            android:name=".Archived.Archived"
+            android:exported="true" />
+        <activity
+            android:name=".About.About"
+            android:exported="true" />
+        <activity
+            android:name=".AddNoteLogic.AddNote"
+            android:exported="true" />
+        <activity
             android:name=".MainMenu"
             android:exported="true" />
         <activity

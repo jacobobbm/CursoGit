@@ -15,13 +15,51 @@
     <string name="contrasena_confirm_et">Repetir contrasena</string>
     <string name="login_txt">Ir la login</string>
 
-<!--Menu principal-->
-    <string name="log_out">Log out</string>
-
-<!--    Login-->
+    <!--Menu principal-->
+    <string name="main_menu_uid">--</string>
+    <string name="main_menu_title">Home</string>
+    <string name="main_menu_username">--</string>
+    <string name="main_menu_user_mail">--</string>
+    <string name="main_menu_add_note">Nueva</string>
+    <string name="main_menu_show_notes">Mis Notas</string>
+    <string name="main_menu_archived">Archivadas</string>
+    <string name="main_menu_profile">Perfil</string>
+    <string name="main_menu_about">Acerca De</string>
+    <string name="main_menu_log_out">Log out</string>
+    <!--    Login-->
     <string name="login_txt_2">Log in</string>
     <string name="mail_login">email</string>
     <string name="contrasena_login">Contrasena</string>
     <string name="btn_login_login">Login</string>
     <string name="sing_up_login_txt">No estas Registrado?</string>
+    <string name="title_activity_profile">Profile</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+<!--    AGREGAR-->
+    <string name="uid_usuario">Uid usuario</string>
+    <string name="correo_usuario">Correo de usuario</string>
+    <string name="fecha_hora_actual">Fecha y hora actual</string>
+    <string name="Titulo">Titulo</string>
+    <string name="Descripcion">Descripcion</string>
+    <string name="btn_calendario">Calenadario</string>
+    <string name="Fecha">00/00/00</string>
+    <string name="Estado">No finalizado</string>
+<!--menu-->
+    <string name="Add_note">Guardar</string>
+
+<!--    items-->
+    <string name="id_nota_item">Id nota</string>
+    <string name="uid_usuario_item">Uid usuario</string>
+    <string name="correo_usuario_item">Correo de usuario</string>
+    <string name="fecha_hora_reg_item">Fecha y hora reg</string>
+    <string name="Titulo_item">Titulo</string>
+    <string name="Descripcion_item">Descripcion</string>
+    <string name="btn_calendario_item">Calenadario</string>
+    <string name="Fecha_item">00/00/00</string>
+    <string name="Estado_item">No finalizado</string>
+
 </resources>

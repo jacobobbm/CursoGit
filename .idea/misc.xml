@@ -3,11 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/blanz/OneDrive/Documentos/AgendaCloud/app/src/main/res/drawable-anydpi/im_add_note.xml" value="0.18" />
+        <entry key="..\:/Users/blanz/OneDrive/Documentos/AgendaCloud/app/src/main/res/layout/activity_add_note.xml" value="0.24157303370786518" />
+        <entry key="..\:/Users/blanz/OneDrive/Documentos/AgendaCloud/app/src/main/res/layout/activity_archived.xml" value="0.17806484295845998" />
         <entry key="..\:/Users/blanz/OneDrive/Documentos/AgendaCloud/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/blanz/OneDrive/Documentos/AgendaCloud/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/blanz/OneDrive/Documentos/AgendaCloud/app/src/main/res/layout/activity_main_menu.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/blanz/OneDrive/Documentos/AgendaCloud/app/src/main/res/layout/activity_main_menu.xml" value="0.18" />
         <entry key="..\:/Users/blanz/OneDrive/Documentos/AgendaCloud/app/src/main/res/layout/activity_pantalla_de_carga.xml" value="0.17806484295845998" />
         <entry key="..\:/Users/blanz/OneDrive/Documentos/AgendaCloud/app/src/main/res/layout/activity_sing_up.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/blanz/OneDrive/Documentos/AgendaCloud/app/src/main/res/layout/content_profile.xml" value="0.2821557971014493" />
+        <entry key="..\:/Users/blanz/OneDrive/Documentos/AgendaCloud/app/src/main/res/layout/fragment_first.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/blanz/OneDrive/Documentos/AgendaCloud/app/src/main/res/layout/item_nota.xml" value="0.5" />
+        <entry key="..\:/Users/blanz/OneDrive/Documentos/AgendaCloud/app/src/main/res/menu/menu_agenda.xml" value="0.20520833333333333" />
       </map>
     </option>
   </component>

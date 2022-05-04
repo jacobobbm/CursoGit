@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNoteLogic.AddNote">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/uid_usuario"
+           android:textSize="18sp"
+           android:hint="@string/uid_usuario"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/correo_usuario"
+            android:textSize="18sp"
+            android:hint="@string/correo_usuario"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fecha_hora_actual"
+            android:textSize="18sp"
+            android:hint="@string/fecha_hora_actual"/>
+
+        <EditText
+            android:id="@+id/Titulo"
+            android:hint="@string/Titulo"
+            android:textSize="24sp"
+            android:layout_marginTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/Descripcion"
+            android:hint="@string/Descripcion"
+            android:textSize="20sp"
+            android:layout_marginTop="10sp"
+            android:minHeight="150dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+       <androidx.appcompat.widget.LinearLayoutCompat
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:orientation="horizontal">
+
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/btn_calendario"
+               android:text="@string/btn_calendario"
+               app:icon="@drawable/ic_baseline_calendar_month_24"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:hint="@string/Fecha"
+               android:textSize="20sp"
+               android:layout_marginStart="15dp"
+               android:id="@+id/Fecha"/>
+
+
+       </androidx.appcompat.widget.LinearLayoutCompat>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Estado"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:text="@string/Estado"/>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
