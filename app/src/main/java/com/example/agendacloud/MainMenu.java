@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.agendacloud.AddNoteLogic.AddNote;
+import com.example.agendacloud.ShowNotes.ShowNotes;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -71,7 +72,7 @@ public class MainMenu extends AppCompatActivity {
                 String correoTxt = userMail.getText().toString();
 
                 /* pasar info a actividad addNote*/
-                startActivity(new Intent(MainMenu.this, AddNote.class));
+//                startActivity(new Intent(MainMenu.this, AddNote.class));
                 Intent intent = new Intent (MainMenu.this, AddNote.class);
                 intent.putExtra("uid", uidTxt);
                 intent.putExtra("correo", correoTxt);
@@ -80,7 +81,14 @@ public class MainMenu extends AppCompatActivity {
 
             }
         });
+        btnList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainMenu.this, ShowNotes.class));
+                Toast.makeText(MainMenu.this, "Listar Notas", Toast.LENGTH_SHORT).show();
 
+            }
+        });
     }
 
     @Override

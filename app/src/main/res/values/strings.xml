@@ -62,4 +62,9 @@
     <string name="Fecha_item">00/00/00</string>
     <string name="Estado_item">No finalizado</string>
 
+<!--    cuadro de dialogo-->
+    <string name="elegirOptTxt">Elija una opcion</string>
+    <string name="eliminar_cd">Eliminar</string>
+    <string name="editar_cd">Editar</string>
+
 </resources>

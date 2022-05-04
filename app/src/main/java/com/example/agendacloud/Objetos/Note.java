@@ -28,6 +28,7 @@ public class Note {
         this.fechaNota = fechaNota;
         this.estado = estado;
     }
+    public Note(){}
 
 
     public String getEstado() {
